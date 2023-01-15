@@ -34,9 +34,15 @@ class AuthController extends Controller
         $user = Auth::user();
 
         $token = $user->createToken('token')->plainTextToken;
+        $cookie = cookie('jwt', $token, 60 * 24);
 
         return \response([
             'jwt' => $token
-        ]);
+        ])->withCookie($cookie);
+    }
+
+    public function user(Request $request)
+    {
+        return $request->user();
     }
 }
