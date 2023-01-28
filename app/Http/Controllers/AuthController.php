@@ -18,10 +18,11 @@ class AuthController extends Controller
     public function register(RegisterRequest $request)
     {
         $user = User::create([
-            'name' => $request->input('name'),
+            'first_name' => $request->input('first_name'),
+            'last_name' => $request->input('last_name'),
             'email' => $request->input('email'),
             'password' => Hash::make($request->input('password')),
-            'role_id' => 3
+            'role_id' => 3 // Default set to viewer
         ]);
 
         return response(new UserResource($user), Response::HTTP_CREATED);
