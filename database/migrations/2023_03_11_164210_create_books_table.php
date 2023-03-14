@@ -14,8 +14,8 @@ return new class extends Migration {
     {
         Schema::create('books', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
-            $table->string('symbol');
+            $table->string('name')->unique();
+            $table->string('symbol')->unique();
             $table->enum('testament', ['old', 'new']);
             $table->enum('category', ['history', 'writing', 'prophecy', 'paulsLetter', 'generalLetter']);
             $table->string('year');

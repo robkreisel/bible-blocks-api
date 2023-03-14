@@ -29,5 +29,26 @@ class ChapterSeeder extends Seeder
         for ($i = 1; $i <= count($exodus); $i++) {
             Chapter::factory()->create(['book_id' => 2, 'chapter' => $i, 'number_verses' => $exodus[$i - 1]]);
         }
+
+        // Leviticus
+        $leviticus = [17, 16, 17, 35, 19, 30, 38, 36, 24, 20, 47, 8, 59, 57, 33, 34, 16, 30, 37, 27, 24, 33, 44, 23, 55,
+            46, 34];
+        for ($i = 1; $i <= count($leviticus); $i++) {
+            Chapter::factory()->create(['book_id' => 3, 'chapter' => $i, 'number_verses' => $leviticus[$i - 1]]);
+        }
+
+        // Numbers
+        $numbers = [54, 34, 51, 49, 31, 27, 89, 26, 23, 36, 35, 16, 33, 45, 41, 50, 13, 32, 22, 29, 35, 41, 30, 25, 18,
+            65, 23, 31, 40, 16, 54, 42, 56, 29, 34, 13];
+        for ($i = 1; $i <= count($numbers); $i++) {
+            Chapter::factory()->create(['book_id' => 4, 'chapter' => $i, 'number_verses' => $numbers[$i - 1]]);
+        }
+
+        // Deuteronomy
+        $deuteronomy = [46, 37, 29, 49, 33, 25, 26, 20, 29, 22, 32, 32, 18, 29, 23, 22, 20, 22, 21, 20, 23, 30, 25, 22,
+            19, 19, 26, 68, 29, 20, 30, 52, 29, 12];
+        for ($i = 1; $i <= count($deuteronomy); $i++) {
+            Chapter::factory()->create(['book_id' => 5, 'chapter' => $i, 'number_verses' => $deuteronomy[$i - 1]]);
+        }
     }
 }

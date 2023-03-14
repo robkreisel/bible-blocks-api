@@ -19,6 +19,7 @@ return new class extends Migration {
             $table->integer('number_verses');
             $table->timestamps();
 
+            $table->unique(['book_id', 'chapter']);
             $table->foreign('book_id')->references('id')->on('books');
         });
     }

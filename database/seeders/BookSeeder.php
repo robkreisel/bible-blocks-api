@@ -34,5 +34,35 @@ class BookSeeder extends Seeder
             'author' => 'Moses',
             'order' => 1
         ]);
+
+        Book::factory()->create([
+            'name' => 'Leviticus',
+            'symbol' => 'Lv',
+            'category' => 'history',
+            'year' => '1445 BC',
+            'era' => 'exodus',
+            'author' => 'Moses',
+            'order' => 1
+        ]);
+
+        Book::factory()->create([
+            'name' => 'Numbers',
+            'symbol' => 'Nu',
+            'category' => 'history',
+            'year' => '1400 BC',
+            'era' => 'exodus',
+            'author' => 'Moses',
+            'order' => 1
+        ]);
+
+        Book::factory()->create([
+            'name' => 'Deuteronomy',
+            'symbol' => 'Dt',
+            'category' => 'history',
+            'year' => '1400 BC',
+            'era' => 'exodus',
+            'author' => 'Moses',
+            'order' => 1
+        ]);
     }
 }
