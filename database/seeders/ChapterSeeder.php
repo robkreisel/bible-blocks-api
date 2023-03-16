@@ -46,6 +46,18 @@ class ChapterSeeder extends Seeder
 
         $kings2 = [18, 25, 27, 44, 27, 33, 20, 29, 37, 36, 21, 21, 25, 29, 38, 20, 41, 37, 37, 21, 26, 20, 37, 20, 30];
 
+        $chronicles1 = [54, 55, 24, 43, 26, 81, 40, 40, 44, 14, 47, 40, 14, 17, 29, 43, 27, 17, 19, 8, 30, 19, 32, 31,
+            31, 32, 34, 21, 30];
+
+        $chronicles2 = [17, 18, 17, 22, 14, 42, 22, 18, 31, 19, 23, 16, 22, 15, 19, 14, 19, 34, 11, 37, 20, 12, 21, 27,
+            28, 23, 9, 27, 36, 27, 21, 33, 25, 33, 27, 23];
+
+        $ezra = [11, 70, 13, 24, 17, 22, 28, 36, 15, 44];
+
+        $nehemiah = [11, 20, 32, 23, 19, 19, 73, 18, 38, 39, 36, 47, 31];
+
+        $esther = [22, 23, 15, 17, 14, 14, 10, 17, 32, 3];
+
         $this->createChaptersForBook($genesis, 1);
         $this->createChaptersForBook($exodus, 2);
         $this->createChaptersForBook($leviticus, 3);
@@ -58,6 +70,11 @@ class ChapterSeeder extends Seeder
         $this->createChaptersForBook($samuel2, 10);
         $this->createChaptersForBook($kings1, 11);
         $this->createChaptersForBook($kings2, 12);
+        $this->createChaptersForBook($chronicles1, 13);
+        $this->createChaptersForBook($chronicles2, 13);
+        $this->createChaptersForBook($ezra, 15);
+        $this->createChaptersForBook($nehemiah, 16);
+        $this->createChaptersForBook($esther, 17);
     }
 
     private function createChaptersForBook($versesArray, $bookId)
