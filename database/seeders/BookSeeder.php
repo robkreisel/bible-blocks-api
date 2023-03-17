@@ -71,7 +71,7 @@ class BookSeeder extends Seeder
         ]);
         Book::factory()->create([
             "name" => "Judges",
-            "symbol" => "Ju",
+            "symbol" => "Jg",
             "category" => "history",
             "year" => "1050 BC",
             "era" => "judges",
@@ -364,6 +364,249 @@ class BookSeeder extends Seeder
             "year" => "433-424 BC",
             "era" => "kingdom",
             "author" => "Malachi",
+            "order" => 1
+        ]);
+        Book::factory()->create([
+            "name" => "Matthew",
+            "symbol" => "Mt",
+            "category" => "history",
+            "year" => "60-65 AD",
+            "era" => "gospel",
+            "author" => "Matthew",
+            "order" => 1
+        ]);
+        Book::factory()->create([
+            "name" => "Mark",
+            "symbol" => "Mk",
+            "category" => "history",
+            "year" => "50-60 AD",
+            "era" => "gospel",
+            "author" => "John Mark",
+            "order" => 1
+        ]);
+        Book::factory()->create([
+            "name" => "Luke",
+            "symbol" => "Lk",
+            "category" => "history",
+            "year" => "60-61 AD",
+            "era" => "gospel",
+            "author" => "Luke",
+            "order" => 1
+        ]);
+        Book::factory()->create([
+            "name" => "John",
+            "symbol" => "Jn",
+            "category" => "history",
+            "year" => "80-90 AD",
+            "era" => "gospel",
+            "author" => "John",
+            "order" => 1
+        ]);
+        Book::factory()->create([
+            "name" => "Acts",
+            "symbol" => "Ac",
+            "category" => "history",
+            "year" => "62 AD",
+            "era" => "gospel",
+            "author" => "Luke",
+            "order" => 1
+        ]);
+        Book::factory()->create([
+            "name" => "Romans",
+            "symbol" => "Ro",
+            "category" => "paulsLetter",
+            "year" => "56 AD",
+            "era" => "gospel",
+            "author" => "Paul",
+            "order" => 1
+        ]);
+        Book::factory()->create([
+            "name" => "1 Corinthians",
+            "symbol" => "1Co",
+            "category" => "paulsLetter",
+            "year" => "55 AD",
+            "era" => "gospel",
+            "author" => "Paul",
+            "order" => 1
+        ]);
+        Book::factory()->create([
+            "name" => "2 Corinthians",
+            "symbol" => "2Co",
+            "category" => "paulsLetter",
+            "year" => "55-56 AD",
+            "era" => "gospel",
+            "author" => "Paul",
+            "order" => 1
+        ]);
+        Book::factory()->create([
+            "name" => "Galatians",
+            "symbol" => "Ga",
+            "category" => "paulsLetter",
+            "year" => "49-50 AD",
+            "era" => "gospel",
+            "author" => "Paul",
+            "order" => 1
+        ]);
+        Book::factory()->create([
+            "name" => "Ephesians",
+            "symbol" => "Ep",
+            "category" => "paulsLetter",
+            "year" => "60-62 AD",
+            "era" => "gospel",
+            "author" => "Paul",
+            "order" => 1
+        ]);
+        Book::factory()->create([
+            "name" => "Philippians",
+            "symbol" => "Ph",
+            "category" => "paulsLetter",
+            "year" => "60-62 AD",
+            "era" => "gospel",
+            "author" => "Paul",
+            "order" => 1
+        ]);
+        Book::factory()->create([
+            "name" => "Colossians",
+            "symbol" => "Cs",
+            "category" => "paulsLetter",
+            "year" => "60-62 AD",
+            "era" => "gospel",
+            "author" => "Paul",
+            "order" => 1
+        ]);
+        Book::factory()->create([
+            "name" => "1 Thessalonians",
+            "symbol" => "1Th",
+            "category" => "paulsLetter",
+            "year" => "51 AD",
+            "era" => "gospel",
+            "author" => "Paul",
+            "order" => 1
+        ]);
+        Book::factory()->create([
+            "name" => "2 Thessalonians",
+            "symbol" => "2Th",
+            "category" => "paulsLetter",
+            "year" => "51-52 AD",
+            "era" => "gospel",
+            "author" => "Paul",
+            "order" => 1
+        ]);
+        Book::factory()->create([
+            "name" => "1 Timothy",
+            "symbol" => "1Ti",
+            "category" => "paulsLetter",
+            "year" => "62-64 AD",
+            "era" => "gospel",
+            "author" => "Paul",
+            "order" => 1
+        ]);
+        Book::factory()->create([
+            "name" => "2 Timothy",
+            "symbol" => "2Ti",
+            "category" => "paulsLetter",
+            "year" => "66-67 AD",
+            "era" => "gospel",
+            "author" => "Paul",
+            "order" => 1
+        ]);
+        Book::factory()->create([
+            "name" => "Titus",
+            "symbol" => "Tt",
+            "category" => "paulsLetter",
+            "year" => "63 AD",
+            "era" => "gospel",
+            "author" => "Paul",
+            "order" => 1
+        ]);
+        Book::factory()->create([
+            "name" => "Philemon",
+            "symbol" => "Pl",
+            "category" => "paulsLetter",
+            "year" => "60 or 61 AD",
+            "era" => "gospel",
+            "author" => "Paul",
+            "order" => 1
+        ]);
+        Book::factory()->create([
+            "name" => "Hebrews",
+            "symbol" => "He",
+            "category" => "generalLetter",
+            "year" => "67-69 AD",
+            "era" => "gospel",
+            "author" => "Unknown",
+            "order" => 1
+        ]);
+        Book::factory()->create([
+            "name" => "James",
+            "symbol" => "Ja",
+            "category" => "generalLetter",
+            "year" => "44-49 AD",
+            "era" => "gospel",
+            "author" => "James",
+            "order" => 1
+        ]);
+        Book::factory()->create([
+            "name" => "1 Peter",
+            "symbol" => "1Pe",
+            "category" => "generalLetter",
+            "year" => "64 AD",
+            "era" => "gospel",
+            "author" => "Peter",
+            "order" => 1
+        ]);
+        Book::factory()->create([
+            "name" => "2 Peter",
+            "symbol" => "2Pe",
+            "category" => "generalLetter",
+            "year" => "67 AD",
+            "era" => "gospel",
+            "author" => "Peter",
+            "order" => 1
+        ]);
+        Book::factory()->create([
+            "name" => "1 John",
+            "symbol" => "1Jn",
+            "category" => "generalLetter",
+            "year" => "90-95 AD",
+            "era" => "gospel",
+            "author" => "John",
+            "order" => 1
+        ]);
+        Book::factory()->create([
+            "name" => "2 John",
+            "symbol" => "2Jn",
+            "category" => "generalLetter",
+            "year" => "90-95 AD",
+            "era" => "gospel",
+            "author" => "John",
+            "order" => 1
+        ]);
+        Book::factory()->create([
+            "name" => "3 John",
+            "symbol" => "3Jn",
+            "category" => "generalLetter",
+            "year" => "90-95 AD",
+            "era" => "gospel",
+            "author" => "John",
+            "order" => 1
+        ]);
+        Book::factory()->create([
+            "name" => "Jude",
+            "symbol" => "Ju",
+            "category" => "generalLetter",
+            "year" => "75 AD",
+            "era" => "gospel",
+            "author" => "Jude",
+            "order" => 1
+        ]);
+        Book::factory()->create([
+            "name" => "Revelation",
+            "symbol" => "Re",
+            "category" => "prophecy",
+            "year" => "90-95 AD",
+            "era" => "gospel",
+            "author" => "John",
             "order" => 1
         ]);
     }
