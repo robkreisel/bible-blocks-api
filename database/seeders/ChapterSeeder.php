@@ -89,6 +89,86 @@ class ChapterSeeder extends Seeder
 
         $daniel = [21, 49, 30, 37, 31, 28, 28, 27, 27, 21, 45, 13];
 
+        $hosea = [11, 23, 5, 19, 15, 11, 16, 14, 17, 15, 12, 14, 16, 9];
+
+        $joel = [20, 32, 21];
+
+        $amos = [5, 16, 15, 13, 27, 14, 17, 14, 15];
+
+        $obadiah = [21];
+
+        $jonah = [17, 10, 10, 11];
+
+        $micah = [6, 13, 12, 13, 15, 16, 20];
+
+        $nahum = [15, 13, 19];
+
+        $habakkuk = [7, 20, 19];
+
+        $zephaniah = [18, 15, 20];
+
+        $haggai = [15, 23];
+
+        $zachariah = [21, 13, 10, 14, 11, 15, 14, 23, 17, 12, 17, 14, 9, 21];
+
+        $malachi = [4, 17, 18, 6];
+
+        $matthew = [25, 23, 17, 25, 48, 34, 29, 34, 38, 42, 30, 50, 58, 36, 39, 28, 27, 35, 30, 34, 46, 46, 39, 51, 46,
+            75, 66, 20];
+
+        $mark = [45, 28, 35, 41, 43, 56, 37, 38, 50, 52, 33, 44, 37, 72, 47, 20];
+
+        $luke = [80, 52, 38, 44, 39, 49, 50, 56, 62, 42, 54, 59, 35, 35, 32, 31, 37, 43, 48, 47, 38, 71, 56, 53];
+
+        $john = [51, 25, 36, 54, 47, 71, 53, 59, 41, 42, 57, 50, 38, 31, 27, 33, 26, 40, 42, 31, 25];
+
+        $acts = [26, 47, 26, 37, 42, 15, 60, 40, 43, 48, 30, 25, 52, 28, 41, 40, 34, 28, 41, 38, 40, 30, 35, 27, 27, 32,
+            44, 31];
+
+        $romans = [32, 29, 31, 25, 21, 23, 25, 39, 33, 21, 36, 21, 14, 26, 33, 25];
+
+        $corinthians1 = [31, 16, 23, 21, 13, 20, 40, 13, 27, 33, 34, 31, 13, 40, 58, 24];
+
+        $corinthians2 = [24, 17, 18, 18, 21, 18, 16, 24, 15, 18, 33, 21, 14];
+
+        $galatians = [24, 21, 29, 31, 26, 18];
+
+        $ephesians = [23, 22, 21, 32, 33, 24];
+
+        $philippians = [30, 30, 21, 23];
+
+        $colossians = [29, 23, 25, 18];
+
+        $thessalonians1 = [10, 20, 13, 18, 28];
+
+        $thessalonians2 = [12, 17, 18];
+
+        $timothy1 = [20, 15, 16, 16, 25, 21];
+
+        $timothy2 = [18, 26, 17, 22];
+
+        $titus = [16, 15, 15];
+
+        $philemon = [25];
+
+        $hebrews = [14, 18, 19, 16, 14, 20, 28, 13, 28, 39, 40, 29, 25];
+
+        $james = [27, 26, 18, 17, 20];
+
+        $peter1 = [25, 25, 22, 19, 14];
+
+        $peter2 = [21, 22, 18];
+
+        $john1 = [10, 29, 24, 21, 21];
+
+        $john2 = [13];
+
+        $john3 = [14];
+
+        $jude = [25];
+
+        $revelation = [20, 29, 22, 11, 14, 17, 17, 13, 21, 11, 19, 17, 18, 20, 8, 21, 18, 24, 21, 15, 27, 21];
+
         $this->createChaptersForBook($genesis, 1);
         $this->createChaptersForBook($exodus, 2);
         $this->createChaptersForBook($leviticus, 3);
@@ -116,7 +196,45 @@ class ChapterSeeder extends Seeder
         $this->createChaptersForBook($lamentations, 25);
         $this->createChaptersForBook($ezekiel, 26);
         $this->createChaptersForBook($daniel, 27);
-
+        $this->createChaptersForBook($hosea, 28);
+        $this->createChaptersForBook($joel, 29);
+        $this->createChaptersForBook($amos, 30);
+        $this->createChaptersForBook($obadiah, 31);
+        $this->createChaptersForBook($jonah, 32);
+        $this->createChaptersForBook($micah, 33);
+        $this->createChaptersForBook($nahum, 34);
+        $this->createChaptersForBook($habakkuk, 35);
+        $this->createChaptersForBook($zephaniah, 36);
+        $this->createChaptersForBook($haggai, 37);
+        $this->createChaptersForBook($zachariah, 38);
+        $this->createChaptersForBook($malachi, 39);
+        $this->createChaptersForBook($matthew, 40);
+        $this->createChaptersForBook($mark, 41);
+        $this->createChaptersForBook($luke, 42);
+        $this->createChaptersForBook($john, 43);
+        $this->createChaptersForBook($acts, 44);
+        $this->createChaptersForBook($romans, 45);
+        $this->createChaptersForBook($corinthians1, 46);
+        $this->createChaptersForBook($corinthians2, 47);
+        $this->createChaptersForBook($galatians, 48);
+        $this->createChaptersForBook($ephesians, 49);
+        $this->createChaptersForBook($philippians, 50);
+        $this->createChaptersForBook($colossians, 51);
+        $this->createChaptersForBook($thessalonians1, 52);
+        $this->createChaptersForBook($thessalonians2, 53);
+        $this->createChaptersForBook($timothy1, 54);
+        $this->createChaptersForBook($timothy2, 55);
+        $this->createChaptersForBook($titus, 56);
+        $this->createChaptersForBook($philemon, 57);
+        $this->createChaptersForBook($hebrews, 58);
+        $this->createChaptersForBook($james, 59);
+        $this->createChaptersForBook($peter1, 60);
+        $this->createChaptersForBook($peter2, 61);
+        $this->createChaptersForBook($john1, 62);
+        $this->createChaptersForBook($john2, 63);
+        $this->createChaptersForBook($john3, 64);
+        $this->createChaptersForBook($jude, 65);
+        $this->createChaptersForBook($revelation, 66);
     }
 
     private function createChaptersForBook($versesArray, $bookId)
