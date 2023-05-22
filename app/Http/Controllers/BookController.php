@@ -23,7 +23,8 @@ class BookController extends Controller
     public function update(Request $request, $id)
     {
         $book = Book::find($id);
-        $book->update($request->only('name', 'symbol', 'testament', 'category', 'year', 'era', 'author', 'order'));
+        $book->update($request->only('name', 'symbol', 'testament', 'category', 'hebrew_category', 'year', 'era',
+            'author', 'order', 'hebrew_order'));
 
         return response(new BookResource($book), Response::HTTP_ACCEPTED);
     }
